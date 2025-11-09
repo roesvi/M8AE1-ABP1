@@ -19,9 +19,9 @@
 @import url('components/_base.css');
 
 /* Sections */
-@import url('sections/_navigation.css');
-@import url('sections/_hero.css');
-@import url('sections/_about.css');
+@import url('sections/navigation.css');
+@import url('sections/hero.css');
+@import url('sections/about.css');
 @import url('sections/_skills.css');
 @import url('sections/_projects.css');
 @import url('sections/_contact.css');

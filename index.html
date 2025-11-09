@@ -11,6 +11,15 @@
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/css/utilities/variables.css">
+    <link rel="stylesheet" href="src/css/components/base.css">
+    <link rel="stylesheet" href="src/css/sections/navigation.css">
+    <link rel="stylesheet" href="src/css/sections/hero.css">
+    <link rel="stylesheet" href="src/css/sections/about.css">
+    <link rel="stylesheet" href="src/css/carousel.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <script>
         tailwind.config = {
             theme: {
@@ -89,6 +98,11 @@
                 <div class="typewriter">
                     <h2>Desarrollador <span class="txt-rotate" data-period="2000" data-rotate='[ "Web", "Frontend", "Backend", "Full Stack" ]'></span></h2>
                 </div>
+                
+                <!-- Botón de desplazamiento hacia abajo -->
+                <a href="#sobre-mi" class="scroll-down-btn mt-12 inline-flex flex-col items-center text-primary-500 hover:text-primary-600 dark:text-primary-400 dark:hover:text-primary-300 transition-colors duration-300 group" aria-label="Desplazarse hacia abajo">
+                    
+                </a>
                 <p>Transformando ideas en experiencias digitales increíbles</p>
                 <div class="cta-buttons">
                     <a href="#contacto" class="btn btn-primary" role="button" aria-label="Ir a la sección de contacto">Contáctame</a>
@@ -101,12 +115,14 @@
                 </div>
             </div>
         </div>
-        <div class="scroll-down">
-            <span>Desplázate</span>
-            <div class="mouse">
-                <div class="wheel"></div>
+        <a href="#sobre-mi" class="scroll-down group" aria-label="Desplázate hacia abajo">
+            <span class="text-sm font-medium text-primary-600 dark:text-primary-400 mb-3 block group-hover:text-primary-700 dark:group-hover:text-primary-300 transition-colors">Desplázate</span>
+            <div class="scroll-icon">
+                <svg class="w-6 h-10 text-primary-500 dark:text-primary-400 group-hover:text-primary-600 dark:group-hover:text-primary-300 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
             </div>
-        </div>
+        </a>
     </section>
 
     <!-- Sección Tecnologías -->
