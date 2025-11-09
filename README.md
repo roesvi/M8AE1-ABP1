@@ -1,34 +1,35 @@
-# Portafolio Profesional
+# 🚀 Portafolio Profesional
 
 ¡Bienvenido a mi portafolio personal! Este sitio web muestra mis habilidades, proyectos y experiencia como Desarrollador Web Full Stack.
 
-## 🚀 Características
+## ✨ Características
 
 - **Diseño Moderno y Responsivo**: Se adapta perfectamente a cualquier dispositivo.
-- **Modo Oscuro**: Incluye soporte para modo claro/oscuro.
+- **Modo Oscuro**: Incluye soporte para modo claro/oscuro con detección automática.
 - **Secciones Principales**:
-  - Inicio (Hero)
-  - Sobre Mí
-  - Habilidades Técnicas
-  - Proyectos Destacados
-  - Contacto
+  - Inicio con presentación interactiva
+  - Sobre Mí con información profesional
+  - Habilidades Técnicas con barras de progreso
+  - Proyectos Destacados con filtros
+  - Formulario de Contacto funcional
 - **Efectos y Animaciones**:
-  - Animaciones suaves con AOS (Animate On Scroll)
+  - Transiciones suaves entre secciones
   - Efectos hover interactivos
-  - Transiciones fluidas
-- **Formulario de Contacto Funcional**
-- **Descarga de CV** con modal de confirmación
+  - Animaciones al hacer scroll
+- **Optimizado para SEO** con metadatos y etiquetas semánticas
+- **Accesibilidad** con ARIA labels y contraste adecuado
 
 ## 🛠️ Tecnologías Utilizadas
 
 - **Frontend**:
   - HTML5 semántico
   - CSS3 con Tailwind CSS
-  - JavaScript Vanilla
-  - GSAP para animaciones
-  - Font Awesome para iconos
+  - JavaScript Vanilla (ES6+)
+  - Font Awesome 6 para iconos
+  - Google Fonts (Poppins)
 - **Herramientas**:
-  - NPM para gestión de paquetes
+  - NPM para gestión de dependencias
+  - Live Server para desarrollo local
   - Git para control de versiones
 
 ## 🚀 Cómo Ejecutar el Proyecto Localmente
@@ -36,18 +37,39 @@
 1. Clona el repositorio:
    ```bash
    git clone [URL_DEL_REPOSITORIO]
+   cd PORTAFOLIO
    ```
 
-2. Abre el archivo `index.html` en tu navegador preferido.
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+4. Abre tu navegador en `http://localhost:3000`
 
 ## 📂 Estructura del Proyecto
 
 ```
-├── css/
-│   ├── components/      # Componentes reutilizables
-│   ├── sections/        # Estilos específicos de secciones
-│   ├── utilities/       # Variables y utilidades
-│   ├── carousel.css     # Estilos del carrusel
+├── src/
+│   ├── css/             # Estilos CSS
+│   │   ├── components/  # Componentes reutilizables
+│   │   ├── sections/    # Estilos específicos de secciones
+│   │   └── utilities/   # Variables y utilidades
+│   ├── img/             # Imágenes del proyecto
+│   │   ├── FotoCoder.png
+│   │   ├── desarrollo_web.png
+│   │   ├── desarrollo_app.png
+│   │   └── diseño_ux_ui.png
+│   └── js/              # Scripts JavaScript
+│       └── main.js      # Script principal
+├── index.html           # Página principal
+├── package.json         # Configuración de NPM
+└── README.md            # Este archivo
 │   └── style.css        # Estilos principales
 ├── img/                 # Imágenes del proyecto
 ├── js/
